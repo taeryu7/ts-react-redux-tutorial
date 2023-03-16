@@ -1,4 +1,14 @@
 import React from 'react';
+import CounterContainer from './containers/CounterContainer';
+
+const App: React.FC = () => {
+  return <CounterContainer />;
+};
+
+export default App;
+
+/*
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -24,3 +34,4 @@ function App() {
 }
 
 export default App;
+*/

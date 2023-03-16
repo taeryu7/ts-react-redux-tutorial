@@ -1,0 +1,18 @@
+TypeScript 에서 리덕스 프로처럼 사용하기
+
+
+$ npx create-react-app ts-react-redux-tutorial --template typescript
+ㄴ 잊지말자 --template typescript
+$ yarn add redux react-redux @types/react-redux
+
+redux 의 경우엔 자체적으로 타입스크립트 지원이된다. 하지만 react-redux는 그렇지 않다.
+라이브러리 자체에 차입스크립트가 지원이 되지 않는 경우에는 @types/ 를 앞에 붙여서 설치하면 된다.
+
+라이브러리에서 공식 타입스크립트 지원이 되는지 되지 않는지 확인 할 때에는 직접 설치해서 불러와서 확인을 하거나, 
+GitHub 레포를 열어서 index.d.ts 라는 파일이 있는지 확인해도된다.
+
+@types는 라이브러리에 타입스크립트 지원을 할 수 있도록 추가된 써드파티 라이브러리다.
+라이브러리에 써드 파티 타입스크립트 지원이 되는지 확인해보시려면 npm 에서 @types/라이브러리명 을 입력해보거나,
+TypeSearch 에서 라이브러리명을 검색해도된다.
+타입서치 사이트 링크 → https://www.typescriptlang.org/dt/search 
+
