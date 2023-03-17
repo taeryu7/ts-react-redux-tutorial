@@ -21,3 +21,6 @@ typesafe-actions 는 리덕스를 사용하는 프로젝트에서 액션 생성 
 typesafe-actions → https://www.npmjs.com/package/typesafe-actions
 $ yarn add typesafe-actions
 
+
+
+typesafe-actions 로 리팩토링
