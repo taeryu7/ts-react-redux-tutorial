@@ -16,3 +16,8 @@ GitHub 레포를 열어서 index.d.ts 라는 파일이 있는지 확인해도된
 TypeSearch 에서 라이브러리명을 검색해도된다.
 타입서치 사이트 링크 → https://www.typescriptlang.org/dt/search 
 
+typesafe-actions 로 리팩토링
+typesafe-actions 는 리덕스를 사용하는 프로젝트에서 액션 생성 함수와 리듀서를 훨씬 쉽고 깔끔하게 작성 할 수 있게 해주는 라이브러리다.
+typesafe-actions → https://www.npmjs.com/package/typesafe-actions
+$ yarn add typesafe-actions
+
